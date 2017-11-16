@@ -1,0 +1,422 @@
+h1, h2 { font-family: 'Passion One'; }
+
+h2 { font-size: 3.5em; }
+
+p { font-family: 'Lato', sans-serif; }
+
+.fondo-1 {
+  background-image: url(../img/back_home_2.jpg); 
+  min-height: 60vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo-1 h1 {
+  color: white;
+  font-size: 4.5em;
+  white-space: pre-line;
+}
+
+.fondo-1 p {
+  color: white;
+  font-family: 'Passion One';
+  font-size: 1.3em;
+}
+
+.uy { width: 1em; }
+
+.navbar-default .navbar-collapse { border: transparent; } 
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  margin-top: 1.5em;
+}
+
+.navbar-default .navbar-toggle .icon-bar { background-color: #00C444; }
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  border: transparent;
+}
+  
+.icon-bar { color: #00C444; }
+
+.navbar-brand img { width: 5em; }
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-family: 'Passion One';
+}
+
+.navbar-default .navbar-nav>li>a:hover {  color: #00C444; }
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
+  background: transparent;
+  color: white;
+}
+
+.dropdown-menu {
+  background: transparent;
+  border: transparent;
+}
+
+.header-links {  margin-top: 1.5em; }
+
+.btn-success {
+  font-family: 'Passion One';
+  background: #00C444;
+  border-color: #00C444;
+  color: white;
+  border-radius: 5em;
+  text-transform: uppercase;
+}
+
+.btn-options {
+  background: transparent;
+  border: transparent;
+}
+
+header .btn-success:hover {
+  background: transparent;
+  border-color: transparent;
+  color: #00C444;
+}
+
+header .btn-inicioSesion {
+  margin-top: 1.5em;
+  border-radius: 5em;
+  float: right;
+  padding: .4em 1.2em;
+}
+
+.campeonato{
+  float: left;
+  width: 4em;
+  margin-left: 2em;
+}
+
+#servicios {
+  background: #EAEAEA;
+  padding: 6em 3em 2em 1em;
+}
+
+#servicios .common-box { padding-bottom: 6em; }
+
+#servicios .common-box__extra { padding-left: 5em;  }
+
+#servicios h2 { color: #000000; }
+
+#servicios .common-box .common-box__figure .foto {  width: 100%;  }
+
+.home button {
+  font-size: 1.5em;
+  padding: .2em 1.2em;
+}
+
+#servicios button {
+  margin: 1em 0;
+  border-radius: 5em;
+  font-size: 1.3em;
+  padding: .22em 1.2em;
+}
+
+#servicios .app-store { width: 10em;  }
+
+#plataformas {  padding: 3em 3em 6em 1em; }
+
+#plataformas .common-box {  text-align: center; }
+
+#plataformas h2 {
+  font-size: 3.5em;
+  color: #00C444;
+}
+
+#plataformas .icon-cast {
+  padding: .4em;
+  background: #00C444;
+  border-radius: 5em;
+  color: white;
+  font-size: 1em;
+  margin-right: .2em;
+}
+
+#plataformas span {  color: #000000; }
+
+#plataformas .common-box .common-box__body { margin-top: 3em; }
+
+.apple {
+  width: 12em;
+  margin-top: 6.5rem;
+}
+.smart {  width: 92%  }
+
+.circle {
+  width: 6em;
+  margin-top: 2em;
+  margin-left: 20em;
+}
+
+footer {
+  background: #00C444;
+  padding: 2em 2em;
+}
+
+footer .footer-logo {  width: 6em; }
+
+footer .social-link--facebook {
+  border-radius: 5em;
+  border: 2px solid white;
+  padding: .7em .5em .5em .5em;
+  margin-left: 1em;
+}
+
+footer .social-link--twitter {
+  border-radius: 5em;
+  border: 2px solid white;
+  padding: .7em .3em .5em .3em;
+  margin-left: .5em;
+}
+
+footer .fa-facebook, .fa-twitter {
+  color: white;
+  padding: 6px 4px;
+  font-size: 18px;
+}
+
+.footer-bars {  margin: 0 1em;  }
+
+.footer-links {
+  font-size: .8em;
+  margin-top: 1.3em;
+}
+
+.footer-social-link { margin-top: 1.3em;  }
+
+footer span, a {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+footer p { color: white;  }
+
+//Responsive
+
+@media screen and (max-width: 1024px) {
+  .container { width: 100%; }
+
+  .row { width: 100%; }
+
+  .fondo-1 { min-height: 41vh; }
+
+  .smart {  margin-top: 3.5em;  }
+
+  .footer-links { margin-left: 1em; }
+
+  .footer-social-link { margin-left: 1.5em; }
+
+}
+
+@media screen and (max-width: 768px) {
+  .fondo-1 { min-height: 43vh; }
+
+  .fondo-1 h1 { margin-top: .4em;  }
+
+  .campeonato { 
+    width: 3em;
+    margin-top: 3em; 
+  }
+
+  #servicios {  padding: 6em 2em 2em 2em; }
+
+  #servicios .common-box__extra { padding-left: 0;  }
+
+  #plataformas {  padding: 3em 2em 6em 3em; }
+
+  .apple {
+    width: 9em;
+    margin-top: 10.5rem;
+  }
+
+  .smart {  margin-top: 7em;  }
+
+  .footer-social-link { margin-left: 0.7em; }
+}
+
+@media screen and (max-width: 736px) {
+  .container { width: 100%; }
+
+  .row { width: 100%; }
+
+  .fondo-1 {  min-height: 100vh;  }
+
+  #servicios {
+    background: #EAEAEA;
+    padding: 6em 1em 2em 3em;
+  }
+
+  #servicios .common-box__extra {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #servicios p {  font-size: 1.2em; }
+
+  #plataformas {  padding: 3em 1em 6em 3em; }
+
+  #plataformas span { font-size: 1.2em; }
+
+  .apple {  width: 16em;  }
+  
+  .smart {
+    margin-top: 6em;
+    width: 26em;
+  }
+
+  .footer-social-link { margin-left: .7em;  }
+}
+
+@media screen and (max-width: 732px) {
+  .container { width: 100%; }
+
+  .row { width: 100%; }
+
+  #servicios {
+    background: #EAEAEA;
+    padding: 6em 1em 2em 3em;
+  }
+
+  #servicios .common-box__extra {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #servicios p { font-size: 1.3em;  }
+
+  .apple {  width: 15em;  }
+
+  #plataformas {  padding: 3em 2em 6em 4em; }
+
+  #plataformas span { font-size: 1.3em; }
+
+  .footer-social-link { margin-left: .7em;  }
+}
+
+@media screen and (max-width: 667px) {
+  .fondo-1 {  min-height: 118vh; }
+}
+
+@media screen and (max-width: 640px) {
+  .container { width: 100%; }
+
+  .row { width: 100%; }
+
+  .fondo-1 { min-height: 105vh; }
+
+  .campeonato {
+    margin-top: 0;
+  }
+  
+  #servicios {  padding: 6em 1em 2em 3em; }
+
+  #servicios .common-box__extra {
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  #plataformas {  padding: 3em 0em 6em 2em; }
+
+  .smart {  width: 17em;  }
+
+  .footer-social-link { margin-left: 0.7em; }
+}
+
+@media screen and (max-width: 568px) {
+  .fondo-1 {  min-height: 105vh; }
+
+  .fondo-1 h1 { font-size: 3.5em; }
+}
+
+@media screen and (max-width: 414px) {
+  .container { width: 100%; }
+
+  .row { width: 100%; }
+
+  .fondo-1{ min-height: 58vh; }
+
+  .fondo-1 h1 {
+    font-size: 3.5em;
+    margin-top: 1em;
+  }
+
+  .campeonato {
+    margin-top: 3em;
+  }
+
+  #plataformas h2 { font-size: 3em; }
+  
+  footer p {  margin-top: .5em; }
+}
+
+@media screen and (max-width: 375px) {
+  .fondo-1 h1 {
+    font-size: 3em;
+    margin-top: 1em;
+  }
+
+  h2 {  font-size: 3em; }
+
+  #servicios .app-store { width: 9em; }
+}
+
+@media screen and (max-width: 360px) {
+  .container { width: 100%; }
+
+  .row { width: 100%; }
+
+  .fondo-1 { min-height: 71vh; }
+
+  .fondo-1 h1 {
+    font-size: 3.2em;
+    margin-top: 2em;
+  }
+
+  .campeonato {
+    width: 3em;
+    margin-top: 3em;
+  }
+
+  #servicios {  padding: 4em 0em 0em 2em; }
+  
+  #servicios .common-box__extra {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  h2 {  font-size: 2.5em; }
+
+  #servicios .app-store { width: 8em; }
+
+  #plataformas {  padding: 1em 0em 6em 2em; }
+
+  #plataformas h2 { font-size: 2.6em; }
+
+  .footer-bars {  margin: 0;  }
+
+  footer p{ margin-top: 1em;  }
+}
+
+@media screen and (max-width: 320px) {
+  .fondo-1 {  min-height: 78vh; }
+
+  .fondo-1 h1 { white-space: inherit; }
+
+  #plataformas h2 { font-size: 2.178em; }
+}
