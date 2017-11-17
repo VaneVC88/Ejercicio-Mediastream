@@ -388,6 +388,10 @@ footer p a:hover {
   footer p {  margin-top: .5em; }
 }
 
+@media screen and (max-width: 414px) {
+  .fondo-1 {  min-height: 66vh; }
+}
+
 @media screen and (max-width: 375px) {
   .fondo-1 {  min-height: 62vh; }
 
